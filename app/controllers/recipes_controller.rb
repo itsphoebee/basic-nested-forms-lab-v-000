@@ -11,7 +11,6 @@ class RecipesController < ApplicationController
     @recipe = Recipe.new
     @recipe.ingredients.build(name: 'name_1')
     @recipe.ingredients.build(name: 'name_2')
-    @recipe.save
   end
 
   def create
